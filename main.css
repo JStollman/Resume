@@ -1,0 +1,107 @@
+
+
+*{box-sizing: border-box;}
+
+body{
+    max-width: 1024px;
+}
+
+.name{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 55pt;
+    font-weight: bold;
+    width:60%;
+   
+    float: left;
+    text-align: center;
+}
+
+
+.contactInfo{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 11pt;
+    width: 40%;
+   
+    float: left;
+    text-align: leftSide;
+}
+
+
+.leftSide{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    width: 60%;
+    padding-right: 18pt;
+   
+    float: left
+}
+
+
+.rightSide{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+    width: 40%;
+   
+    float: left
+}
+
+
+.ProfExp{
+    font-weight: bold;
+    font-size: 14pt;
+    color:rgb(48,131,155);
+}
+
+
+.jobTitle{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color:rgb(48,131,155);
+}
+
+
+
+.company{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 12pt;
+}
+
+
+
+.subSection{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color:rgb(48,131,155);
+}
+
+.education{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+}
+.content{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 12pt;
+}
+
+ul{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 12pt;
+    margin: 0%;
+}
+
+
+li{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 12pt;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul1{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 12pt;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
