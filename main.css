@@ -12,7 +12,6 @@ body{
     font-size: 55pt;
     font-weight: bold;
     width:60%;
-   
     float: left;
     text-align: center;
 }
@@ -22,7 +21,6 @@ body{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 11pt;
     width: 40%;
-   
     float: left;
     text-align: leftSide;
 }
@@ -32,15 +30,17 @@ body{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     width: 60%;
     padding-right: 18pt;
-   
     float: left
+}
+
+.job{
+    margin-bottom: 5px;
 }
 
 
 .rightSide{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
     width: 40%;
-   
     float: left
 }
 
@@ -49,6 +49,14 @@ body{
     font-weight: bold;
     font-size: 14pt;
     color:rgb(48,131,155);
+    margin-bottom:10px;
+}
+
+.sectionHeader{
+    font-weight: bold;
+    font-size: 14pt;
+    color:rgb(48,131,155);
+    margin-bottom:10px;
 }
 
 
@@ -77,12 +85,21 @@ body{
 
 .education{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    line-height: 14pt;
     font-size: 14pt;
     font-style: italic;
 }
 .content{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    line-height: 12pt;
     font-size: 12pt;
+    margin-bottom: 10px;
+}
+.subContent{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    line-height: 12pt;
+    font-size: 12pt;
+    margin-bottom: 5px;
 }
 
 ul{
@@ -105,4 +122,21 @@ ul1{
     list-style-type: none;
     padding: 0%;
     margin: 0%;
+}
+
+ul.indent li{
+    padding-left: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+ul.noBullit{
+    list-style: none;
+    padding: 0;
+}
+
+li.indent{
+    padding-left: 20px;
+    display: inline-block;
+    list-style: none;
 }
